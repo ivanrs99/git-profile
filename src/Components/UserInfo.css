@@ -1,0 +1,43 @@
+.avatarImg{
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+}
+
+.stats{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0px, 350px));
+    grid-gap: 2rem;    
+}
+
+.chart{
+    border: 4px dotted black;
+}
+
+.items{
+    float: right;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(100px, 120px));
+    grid-gap: 0.5rem;    
+}
+
+.item{
+    background-color: rgba(48, 68, 68, 0.507);
+    padding: 0.2rem;
+    border-radius: 1rem;
+    text-align: center;
+    display: grid;
+}
+
+.number {
+    color: white;
+    font-size: 1.8rem;
+}
+
+.number-label {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    color: rgba(200, 225, 255, 0.7);
+}
