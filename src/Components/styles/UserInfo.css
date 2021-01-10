@@ -4,27 +4,16 @@
     height: 140px;
 }
 
-.stats{
-    width: fit-content;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0px, 350px));
-    grid-gap: 2rem;    
-}
-
-.chart{
-    border: 4px dotted black;
-}
-
 .items{
     float: right;
     display: grid;
-    grid-template-columns: repeat(1, minmax(100px, 120px));
+    grid-template-columns: repeat(1, minmax(100px, 110px));
     grid-gap: 0.5rem;    
 }
 
 .item{
     background-color: rgba(48, 68, 68, 0.507);
-    padding: 0.2rem;
+    padding: 0.5rem;
     border-radius: 1rem;
     text-align: center;
     display: grid;
@@ -40,4 +29,12 @@
     font-size: 0.75rem;
     letter-spacing: 1px;
     color: rgba(200, 225, 255, 0.7);
+}
+
+.chart {
+    background-color: white;
+}
+
+.chart > div > h2 {
+    color: black;    
 }
