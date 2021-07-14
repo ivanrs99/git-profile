@@ -8,7 +8,8 @@ const UserInfo = ({ userData, lang }) => {
             <div className="mt-5 mb-5 d-flex justify-content-center">
                 <img src={userData.avatar_url} className="avatarImg" alt="avatar"></img>
             </div>
-            <h1 className="mb-5 d-flex justify-content-center"><a href={userData.html_url} target="_blank">@{userData.login}</a></h1>
+            <h1 className="mb-5 d-flex justify-content-center">
+                <a href={userData.html_url} target="_blank" rel="noreferrer">@{userData.login}</a></h1>
             
             <div className="row d-flex justify-content-center">
                 <div className="col-md-2 items mr-5">
